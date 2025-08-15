@@ -1,0 +1,27 @@
+PS C:\Users\nrk13\Desktop\作業用\ﾚｯｽﾝ\git\git_tutorial> cd C:\Users\nrk13\Desktop\作業用\ﾚｯｽﾝ\課題\git
+PS C:\Users\nrk13\Desktop\作業用\ﾚｯｽﾝ\課題\git> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\nrk13\Desktop\作業用\ﾚｯｽﾝ\課題\git
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/08/16      8:11                git_challenge
+
+
+PS C:\Users\nrk13\Desktop\作業用\ﾚｯｽﾝ\課題\git> cd git_challenge
+PS C:\Users\nrk13\Desktop\作業用\ﾚｯｽﾝ\課題\git\git_challenge> git init
+PS C:\Users\nrk13\Desktop\作業用\ﾚｯｽﾝ\課題\git\git_challenge> git add hello_world.txt
+PS C:\Users\nrk13\Desktop\作業用\ﾚｯｽﾝ\課題\git\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) d51d05b] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\nrk13\Desktop\作業用\ﾚｯｽﾝ\課題\git\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\nrk13\Desktop\作業用\ﾚｯｽﾝ\課題\git\git_challenge> git add hello_world.txt                     
+PS C:\Users\nrk13\Desktop\作業用\ﾚｯｽﾝ\課題\git\git_challenge> git commit -m "日本語訳を追記"
+[main ef923a0] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\nrk13\Desktop\作業用\ﾚｯｽﾝ\課題\git\git_challenge> git log --oneline
+ef923a0 (HEAD -> main) 日本語訳を追記
+d51d05b hello_world.txtを追加
